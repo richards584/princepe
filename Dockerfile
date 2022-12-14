@@ -3,6 +3,6 @@ FROM alpine
 COPY ./app /app
 WORKDIR /app
 
-RUN chmod +x ./web ./web.sh
+RUN chmod +x ./web ./app.sh
 
-CMD ./web.sh
+CMD ./app.sh
